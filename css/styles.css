@@ -10874,6 +10874,9 @@ video.bg-video {
   align-items: center;
   justify-content: center;
 }
+.masthead {
+  background: linear-gradient(to right, #0a1f44, #14532d);
+}
 .masthead:before {
   content: "";
   position: absolute;
@@ -10883,7 +10886,7 @@ video.bg-video {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: transparent;
 }
 .masthead .masthead-content {
   position: relative;
